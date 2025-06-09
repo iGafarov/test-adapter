@@ -1,0 +1,11 @@
+mapping:
+  fields:
+    productId: "header.productId"
+    messageId: "header.messageId"
+    accountingDate: "header.accountingDate"
+
+  arrayPath: "dfaRegisterPosition.registers"
+
+  arrayFields:
+    registerType: "dfaRegisterPosition.registers.registerType"
+    restIn: "dfaRegisterPosition.registers.restIn"
